@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local("Montserrat"),url('../fonts/Montserrat.ttf') format("truetype")
+}
+@font-face {
+    font-family: 'RezaZulmiSans';
+    src: local("RezaZulmiSans"),url('../fonts/RezaZulmiSans.ttf') format("truetype")
+}
