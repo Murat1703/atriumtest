@@ -137,7 +137,6 @@ body {
     width: 100%;
     height: 2px;
     background: rgb(188, 109, 65);
-    transition: .15s ease all;
 }
 .menu-burger span:nth-child(1){
     top: 3px;
@@ -447,10 +446,17 @@ body {
 }
 /**/
 .porfolio{
-    background-color: var(--color-primary-bg-main);
+    background-color:#404040;
+}
+.porfolio .card-title{
+    color: #fff;
+}
+.porfolio span.caption{
+    color: #ff7a00!important;
 }
 .international-slider-block{
-    padding-top: 191px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .international-top{
     display: flex;
@@ -477,7 +483,7 @@ body {
     transition: .5s ease all;
 }
 .international-slide-1{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-1.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)),  url("/assets/img/main_page/international-slider/slider-1.png");
 }
 .internationa-slider-inner{
     margin-top: 25px;
@@ -511,6 +517,9 @@ body {
 .international-slider-bottom-content{
     display: none;
 }
+.international-slider-counter{
+    color: #fff;
+}
 .international-slide-title{
     text-transform: uppercase;
     padding: 16px 34px;
@@ -543,28 +552,28 @@ body {
 }
 
 .international-slide-2{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-2.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-2.png");
 }
 .international-slide-3{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-3.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-3.png");
 }
 .international-slide-4{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-4.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-4.png");
 }
 .international-slide-5{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-5.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-5.png");
 }
 .international-slide-6{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-6.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-6.png");
 }
 .international-slide-7{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-7.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-7.png");
 }
 .international-slide-8{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-8.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-8.png");
 }
 .international-slide-9{
-    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url('../img/main_page/international-slider/slider-9.png');
+    background-image: linear-gradient(0deg, rgba(37, 42, 70, 0.35), rgba(37, 42, 70, 0.35)), url("/assets/img/main_page/international-slider/slider-9.png");
 }
 .international-slider-item.swiper-slide{
     background-color: #f0f0f0;
@@ -574,6 +583,159 @@ body {
 
 .international-slider-wrapper{
     align-items: center;
+}
+/**/
+.zhk{
+    padding: 100px 0;
+}
+.zhk-header{
+    display: flex;
+    flex-direction: column;
+    padding: 0 205px;
+}
+.zhk-slider-body{
+    padding-left: 135px;
+    position: relative;
+}
+.zhk-slider-conten{
+    width: 100%;
+    position: relative;
+}
+.zhk-slider-item-block{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    height: 605px;
+}
+.zhk-slider-text{
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    padding: 90px 98px 84px 100px;
+    justify-content: flex-start;
+    height: 100%;
+    background: #fff;
+}
+.zhk-slider-text-title{
+    color: #727272;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+}
+.zhk-slider-text-content{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 400px;
+    margin-top: 30px;
+}
+.porfolio-link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 16.5px 25px;
+    max-width: 147px;
+    margin-top: 54px;
+    border: 1px solid #bf8154;
+    color: #bf8154;
+    transition: .5s ease all;
+}
+.porfolio-link:hover{
+    background: #bf8154;
+    color: #fff;
+    transition: .5s ease all;
+}
+.zhk-slider-img{
+    width: 585px;
+    height: 100%;
+}
+.slide-1-img{
+    background: url('/assets/img/main_page/gallery/elite-life/slide-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide-2-img{
+    background: url('/assets/img/main_page/gallery/luxury-park/slide-1.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zhk-slider-blur-img-1{
+    background: url('/assets/img/main_page/gallery/elite-life/slide-1.png');
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    background-position: center;
+    background-size: cover;
+}
+.zhk-slider-blur-img{
+    width: 50vw;
+    height: 650px;
+    top:-50px;
+    position: absolute;
+    z-index: 0;
+    right: 30px;
+    filter: blur(5PX);
+}
+.zhk-slider-blur-img-2{
+    background: url('/assets/img/main_page/gallery/luxury-park/slide-1.webp');
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    background-position: center;
+    background-size: cover;
+}
+.zhk-slider-control{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 0; 
+    top: 20px;
+    z-index: 10;
+}
+.slide-3-img{
+    background: url('/assets/img/main_page/gallery/elite-life-2/slide-1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.zhk-slider-blur-img-3{
+    background: url('/assets/img/main_page/gallery/luxury-park/slide-1.webp');
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    background-position: center;
+    background-size: cover;
+}
+.zhk-slider-btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.slide-4-img{
+    background: url('/assets/img/purchase/skypark/1.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zhk-slider-blur-img-4{
+    background: url('/assets/img/purchase/skypark/1.webp');
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    background-position: center;
+    background-size: cover;
+}
+.slide-5-img{
+    background: url('/assets/img/purchase/wisteria/1.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.zhk-slider-blur-img-5{
+    background: url('/assets/img/purchase/wisteria/1.webp');
+    background-repeat: no-repeat;
+    transform: scale(1.3);
+    background-position: center;
+    background-size: cover;
 }
 /**/
 .complex-block{ 
@@ -959,12 +1121,14 @@ body {
 /**/
 .footer{
     padding-top: 56px;
-    background-color: #e7e7e7;
+    background-color: #515151;
     display: flex;
+    color: #fff;
     flex-direction: column;
 }
 .footer-menu{
     display: flex;
+    color: #fff!important;
     margin-left: 10.4861111111%;
     margin-bottom: 51px;
 }
@@ -1003,7 +1167,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-    color: var(--color-text-heading);
+    color: #fff;
 }
 .footer-nav-content{
     display: flex;
@@ -1019,7 +1183,7 @@ body {
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: var(--color-text-body);
+    color: #fff;
 }
 .footer-contacts{
     display: flex;
@@ -1039,8 +1203,7 @@ body {
     display: flex;
     align-items:center;
     gap: 16.13px;
-}
-/**/
+}/**/
 .mobile-menu{
     width: 100%;
     position: absolute;
@@ -1076,7 +1239,6 @@ body {
     font-size: 18px;
     line-height: 25px;
 }
-/**/
 .modal-overlay{
     background: rgba(37, 42, 70, 0.35);
     position: fixed;

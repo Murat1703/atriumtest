@@ -249,27 +249,6 @@
     .map-content{
         padding: 0 20px;
     }
-    .mobile-menu._active-mobile{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        color: #fff;
-    }
-    .mobile-menu._active-mobile.footer-contacts-list li a.contacts-list{
-        color: #fff;
-    }
-
-    .docBody.__hid{
-        overflow: hidden;
-    }
-    .modal-content{
-        width: 90%;
-    }
-    .modal-form-title{
-        text-align: center;
-    }
-
-
 }
 
 @media (max-width: 500px){
@@ -302,7 +281,7 @@
         padding-right: 30px;
    }
    .main-horizontal-line{
-        top: 196px;
+        top: 151px;
         left: 0;
         width: 260px;
    }
@@ -447,6 +426,51 @@
         font-size: 12px;
         line-height: 15px;
     }
+    .purchase-slider {
+        padding: 0 30px;
+    }
+    .purchase-card-item{
+        min-height: auto;
+        padding: 20px;
+    }
+    .purchase-card-item-title{
+        font-size: 24px;
+    }
+    .purchase-card-item-name{
+        font-size: 12px;
+    }
+    .purchase-card-item-value{
+        font-size: 16px;
+    }
+    .purchase-card-item div {
+        margin-top: 5px;
+    }
+    .purchase-link{
+        margin-top: 10px;
+    }
+    .mobile-menu._active-mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        color: #fff;
+    }
+    .mobile-menu._active-mobile.footer-contacts-list li a.contacts-list{
+        color: #fff;
+    }
+
+    .docBody.__hid{
+        overflow: hidden;
+    }
+    .modal-content{
+        width: 90%;
+    }
+    .modal-form-title{
+        text-align: center;
+    }
+
+
+
+  
 
 }
 

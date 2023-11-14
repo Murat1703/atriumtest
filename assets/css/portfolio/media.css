@@ -249,6 +249,12 @@
     .map-content{
         padding: 0 20px;
     }
+    .zhk-header{
+        padding: 0 30px;
+    }
+    .zhk-slider-body{
+        padding: 0;
+    }
     .mobile-menu._active-mobile{
         display: flex;
         flex-direction: column;
@@ -268,7 +274,6 @@
     .modal-form-title{
         text-align: center;
     }
-
 
 }
 
@@ -302,7 +307,7 @@
         padding-right: 30px;
    }
    .main-horizontal-line{
-        top: 196px;
+        top: 151px;
         left: 0;
         width: 260px;
    }
@@ -446,6 +451,21 @@
     .virtual-t-btn{
         font-size: 12px;
         line-height: 15px;
+    }
+    .zhk-slider-blur-img{
+        display: none;
+    }
+    .zhk-slider-item-block{
+        display: block;
+        flex-direction: column;
+        height: auto;
+    }
+    .zhk-slider-img{
+        width: 100%;
+        height: 300px;
+    }
+    .zhk-slider-text{
+        padding: 40px;
     }
 
 }
